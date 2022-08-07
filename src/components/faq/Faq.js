@@ -3,15 +3,15 @@ import { questions } from "./data.js";
 import Question from "./Question";
 import { MdOutlineLibraryBooks } from "react-icons/md";
 
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Faq = () => {
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 1000,
-  //   });
-  // }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <section id="faq">
       <div className="container faq">
